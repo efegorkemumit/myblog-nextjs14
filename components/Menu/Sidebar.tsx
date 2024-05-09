@@ -4,12 +4,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
 import React from 'react'
-import { ModeToggle } from './ModeToggle';
 import { navLinks, socialMedia } from '@/constans';
-import { Button } from './ui/button';
 import { cn } from '@/lib/utils';
-import { Input } from './ui/input';
 import { Search } from 'lucide-react';
+import { ModeToggle } from '../ModeToggle';
+import { Button } from '../ui/button';
+import { Input } from '../ui/input';
+import NavLinks from './NavLinks';
+import SocialMedia from './SocialMedia';
 
 const Sidebar = () => {
 
@@ -47,26 +49,13 @@ const Sidebar = () => {
                         const IconComponent = link.icon;
 
                         return(
-                           <Button asChild
-                           variant="ghost"
-                           key={link.route}
-                           className={cn("w-full h-12 justify-center",
-                            IsActive && "bg-mycolor-300 dark:hover:bg-mycolor-300 text-mycolor-100 border border-mycolor-100"
-                           )}
-                           >
-                            <Link href={link.route}>
-                                <div className={cn("flex items-center w-full gap-2 text-mycolor-100 dark:text-mycolor-500 text-lg",
-                                    IsActive && "text-mycolor-100 dark:text-mycolor-100 dark:hover:text-mycolor-100"
-                                )}>
-                                    <IconComponent className='h-6 w-6'/>
-                                    <p>{link.label}</p>
-
-
-                                </div>
-                            
-                            </Link>
-
-                           </Button>
+                    <NavLinks
+                    key={link.route}
+                    IsActive={IsActive}
+                    icon={link.icon}
+                    label={link.label}
+                    route={link.route}
+                    />
 
                         )
 
@@ -94,17 +83,11 @@ const Sidebar = () => {
                             const IconComponent = link.icon;
 
                             return(
-                            <div key={link.route}>
-                                <li className='flex items-center font-semibold w-full'>
-                                    <Link href={link.route} className='p-4 font-semibold flex gap-1'>
-                                        <IconComponent className='text-mycolor-100 dark:text-mycolor-500 text-2xl'/>
-
-                                    </Link>
-
-                                </li>
-
-
-                            </div>
+                            <SocialMedia
+                            icon={link.icon}
+                            route={link.route}
+                            key={link.route}
+                            />
                             )
 
                             })}
