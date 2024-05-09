@@ -1,3 +1,4 @@
+import Sidebar from '@/components/Sidebar'
 import React from 'react'
 
 interface RootLayoutProps{
@@ -7,7 +8,7 @@ interface RootLayoutProps{
 const RoutesLayout = ({children}:RootLayoutProps) => {
   return (
     <main className='flex min-h-screen'>
-        sidebar
+        <Sidebar/>
         mobilemenu
         <div className='flex-1 overflow-auto lg:max-h-screen py-8'>
             <div className='mx-auto px-5 w-full'>
