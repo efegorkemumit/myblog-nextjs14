@@ -12,7 +12,7 @@ const RoutesLayout = ({children}:RootLayoutProps) => {
     <main className='flex min-h-screen'>
         <Sidebar/>
         <MobileMenu/>
-        <div className='flex-1 overflow-auto lg:max-h-screen'>
+        <div className='flex-1 lg:ml-72 ml-0 lg:max-h-screen'>
 
           <Header/>
             <div className='mx-auto px-5 w-full'>

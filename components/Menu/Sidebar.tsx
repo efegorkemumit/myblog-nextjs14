@@ -18,7 +18,7 @@ const Sidebar = () => {
     const pathname = usePathname();
   return (
     <aside className='hidden lg:flex h-screen w-72 bg-mycolor-400
-     dark:bg-mycolor-100 border-r-2 dark:border-r-mycolor-400/30'>
+     dark:bg-mycolor-100 border-r-2 dark:border-r-mycolor-400/30 fixed'>
 
         <div className='flex flex-col gap-4 justify-center items-center w-full'>
             <div className='mx-auto ml-14 justify-center items-center mt-12'>
@@ -30,12 +30,14 @@ const Sidebar = () => {
                     width={160}
                     height={160}
                     />
+              
+                
+                </Link>
+
                 <div className='mt-6 text-center'>
                     <ModeToggle/>
 
                 </div>
-                
-                </Link>
 
 
             </div>

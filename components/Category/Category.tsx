@@ -4,7 +4,7 @@ import CategoryItem from './CategoryItem'
 
 const Category = () => {
   return (
-    <div className='flex items-center gap-1 overflow-y-auto'>
+    <div className='flex items-center gap-1 flex-wrap'>
         {BrowseCategory.map((item)=>(
 
             <CategoryItem key={item.route}  href={item.route} label={item.label} />
