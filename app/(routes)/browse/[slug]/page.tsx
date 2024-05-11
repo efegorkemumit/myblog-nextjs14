@@ -1,3 +1,4 @@
+import Category from '@/components/Category/Category';
 import React from 'react'
 
 interface BrowseDetailPageProps{
@@ -8,7 +9,12 @@ interface BrowseDetailPageProps{
 
 const BrowseDetailPage = ({params}:BrowseDetailPageProps) => {
   return (
-    <div>{params.slug}</div>
+    <div className='mt-4'>
+      <Category/>
+      
+      {params.slug}
+      
+      </div>
   )
 }
 

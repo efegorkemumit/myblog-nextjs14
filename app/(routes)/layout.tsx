@@ -1,3 +1,4 @@
+import Header from '@/components/Menu/Header'
 import MobileMenu from '@/components/Menu/MobileMenu'
 import Sidebar from '@/components/Menu/Sidebar'
 import React from 'react'
@@ -11,7 +12,9 @@ const RoutesLayout = ({children}:RootLayoutProps) => {
     <main className='flex min-h-screen'>
         <Sidebar/>
         <MobileMenu/>
-        <div className='flex-1 overflow-auto lg:max-h-screen py-8'>
+        <div className='flex-1 overflow-auto lg:max-h-screen'>
+
+          <Header/>
             <div className='mx-auto px-5 w-full'>
                          {children}
             </div>

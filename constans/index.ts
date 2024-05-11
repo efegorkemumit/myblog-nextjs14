@@ -50,3 +50,59 @@ export const socialMedia = [
     
   ];
   
+
+  export const BrowseCategory = [
+    {
+      label: "All",
+      route: "/",
+    },
+    {
+      label: "Next.js",
+      route: "/browse/nextjs",
+    },
+    {
+      label: "React.js",
+      route: "/browse/reactjs",
+    },
+    {
+      label: "Shdcn",
+      route: "/browse/shdcn",
+    },
+    {
+      label: "Mysql",
+      route: "/browse/mysql",
+    },
+    {
+      label: "MongoDb",
+      route: "/browse/mongodb",
+    },
+    {
+      label: "Prisma",
+      route: "/browse/prisma",
+    },
+    {
+      label: "TailwindCss",
+      route: "/browse/tailwindcss",
+    },
+    {
+      label: "NextAuth",
+      route: "/browse/nextauth",
+    },
+    {
+      label: "PostgreSql",
+      route: "/browse/postgreSql",
+    },
+    {
+      label: "Clerk",
+      route: "/browse/clerk",
+    },
+    {
+      label: "Strapi",
+      route: "/browse/strapi",
+    },
+    {
+      label: "Sanity",
+      route: "/browse/sanity",
+    },
+    
+  ];

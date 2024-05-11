@@ -43,6 +43,13 @@ const MobileMenu = () => {
         
         </Link>
 
+<div className='flex gap-4'>
+
+
+        <Button variant="mybutton">
+          Login
+        </Button>
+
         <Sheet>
   <SheetTrigger>
     <MenuIcon/>
@@ -121,6 +128,8 @@ const MobileMenu = () => {
     
   </SheetContent>
 </Sheet>
+
+</div>
 
 
         
