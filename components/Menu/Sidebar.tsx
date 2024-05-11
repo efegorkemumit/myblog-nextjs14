@@ -24,7 +24,7 @@ const Sidebar = () => {
             <div className='mx-auto ml-14 justify-center items-center mt-12'>
                 <Link href="/">
                     <Image
-                    alt=''
+                    alt='Logo'
                     src="/pp.png"
                     className='rounded-full'
                     width={160}
