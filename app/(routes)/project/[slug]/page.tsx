@@ -7,11 +7,28 @@ import Link from 'next/link';
 import React from 'react'
 import { FiYoutube } from 'react-icons/fi';
 
+
+
 interface ProjectPageDetailProps{
     params:{
         slug:string;
     }
 }
+
+
+export async function generateMetadata({ params }) {
+    const project = Products.find(product=> product.href.includes(params.slug))
+
+    if(!project){
+        return <div>project not found</div>
+    }
+
+    return {
+      title: project.title,
+      description:project.description,
+    }
+  }
+
 
 const ProjectPageDetail = ({ params}:ProjectPageDetailProps) => {
     const project = Products.find(product=> product.href.includes(params.slug))
@@ -19,8 +36,27 @@ const ProjectPageDetail = ({ params}:ProjectPageDetailProps) => {
     if(!project){
         return <div>project not found</div>
     }
+
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Product',
+        title:project.title,
+        name: project.title,
+        image: project.image,
+        description: project.description,
+        publishedAt: project.publishedAt,
+        updatedAt: project.updatedAt,
+        author: project.author,
+        isPublished: project.isPublished,
+        tags: project.tags,
+      }
+    
   return (
     <div className='mt-8'>
+        <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <div className='grid grid-cols-1 lg:grid-cols-8 gap-5'>
         <div className='lg:col-span-5'>
             <div className='bg-mycolor-400

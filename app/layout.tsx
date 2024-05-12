@@ -7,6 +7,7 @@ import { siteMetadata } from "@/lib/siteMetaData";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteMetadata.siteUrl),
   title: {
     template: `%s | ${siteMetadata.title}`,
     default: siteMetadata.title, // a default is required when creating a template
