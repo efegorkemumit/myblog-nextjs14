@@ -1,3 +1,4 @@
+import About from '@/components/About/About'
 import { Metadata } from 'next'
 import React from 'react'
 
@@ -31,7 +32,7 @@ const AboutPage = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      asd
+      <About/>
 
 
 
