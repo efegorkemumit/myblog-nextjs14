@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="" rel="nofollow">
+<img src="https://github.com/efegorkemumit/myblog-nextjs14/blob/master/public/blog.jpg"
+ style="max-width: 100%;">
+</a>
 
-## Getting Started
+<div></div>
 
-First, run the development server:
+<a href="https://www.instagram.com/efegorkemumit/" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/instagram.png" style="max-width: 10%;">
+</a>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<a href="https://efegorkemumit.com/" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/website.png" style="max-width: 10%;">
+</a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<a href="https://github.com/efegorkemumit" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/github.png" style="max-width: 10%;">
+</a>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<a href="https://www.linkedin.com/in/efe-g%C3%B6rkem-%C3%BCmit-a084009b/" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/linkedin.png" style="max-width: 10%;">
+</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<a href="https://www.youtube.com/@EfeGorkemUmit?sub_confirmation=1" rel="nofollow">
+<img src="https://efegorkemumit.github.io/assets/img/iconss/youtube.png" style="max-width: 10%;">
+</a>
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+<div style="height:25px">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## LINKS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+- Video Tutorial : Yakında
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+##  Blog Seo Optimized | Frontend and Seo | Blog Website |  NextJS, TailwindCSS
+
+## Video
+
+**Timestamps**
+- 00:00 Tanıtım
+- 01:41 Kurulumlar
+- 13:06 DarkMode
+- 18:09 Routes
+- 33:45 Sidebar
+- 58:40 Mobile Menu
+- 01:13:33 Seo Layout Metadata Static Page
+- 01:29:35 Category
+- 01:42:19 Project List
+- 01:58:10 About Us
+- 02:04:20 Not Found Page
+- 02:10:35 Project Detail
+- 02:20:42 Dinamik Seo
+
+
+
+
