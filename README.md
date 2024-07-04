@@ -4,34 +4,13 @@
 </a>
 
 <div></div>
-
-<a href="https://www.instagram.com/efegorkemumit/" rel="nofollow">
-<img src="https://efegorkemumit.github.io/assets/img/iconss/instagram.png" style="max-width: 10%;">
-</a>
-
-<a href="https://efegorkemumit.com/" rel="nofollow">
-<img src="https://efegorkemumit.github.io/assets/img/iconss/website.png" style="max-width: 10%;">
-</a>
-
-<a href="https://github.com/efegorkemumit" rel="nofollow">
-<img src="https://efegorkemumit.github.io/assets/img/iconss/github.png" style="max-width: 10%;">
-</a>
-
-<a href="https://www.linkedin.com/in/efe-g%C3%B6rkem-%C3%BCmit-a084009b/" rel="nofollow">
-<img src="https://efegorkemumit.github.io/assets/img/iconss/linkedin.png" style="max-width: 10%;">
-</a>
-
-<a href="https://www.youtube.com/@EfeGorkemUmit?sub_confirmation=1" rel="nofollow">
-<img src="https://efegorkemumit.github.io/assets/img/iconss/youtube.png" style="max-width: 10%;">
-</a>
-
-
-<div style="height:25px">
+## 🌐 Socials:
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/efegorkemumit) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/efe-g%C3%B6rkem-%C3%BCmit-a084009b/) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@@EfeGorkemUmit) 
 
 ## LINKS
 
 
-- Video Tutorial : Yakında
+- Video Tutorial : (https://youtu.be/4It1z1VWtuE)
 
 
 
